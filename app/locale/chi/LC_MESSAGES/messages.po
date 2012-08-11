@@ -1,0 +1,35 @@
+msgid	"ORDERS_ADD_SUCCEED"
+msgstr	"下单成功."
+
+msgid	"ORDERS_PAYERCONF_SUCCEED"
+msgstr	"确认付款成功."
+
+msgid	"ORDERS_PAYEECONF_SUCCEED"
+msgstr	"确认成功, 成交."
+
+msgid	"ORDERS_CANCEL_SUCCEED"
+msgstr	"取消订单成功."
+
+msgid	"USERS_REGISTER_SUCCEED"
+msgstr	"恭喜, 注册成功! 去邮箱确认一下吧."
+
+msgid	"USERS_CONFIRM_AGREEMENT"
+msgstr	"确认之前请先看一下协议."
+
+msgid	"USERS_SETPASSWORD_SUCCEED"
+msgstr	"设置密码成功."
+
+msgid	"USERS_CONFIRMATION_SENT"
+msgstr	"一封含有密码重置链接的邮件已经发送到您的邮箱."
+
+msgid	"USERS_CHANGE_SUCCEED"
+msgstr	"修改密码成功."
+
+msgid	"ACCOUNTS_TRANSFER_SUCCEED"
+msgstr	"转账成功."
+
+msgid	"ACCOUNTS_WITHDRAW_SUCCEED"
+msgstr	"提现成功."
+
+msgid	"USERS_SETPASSWORD_SUCCEED"
+msgstr	"设置密码成功."

@@ -1,0 +1,272 @@
+/*my account css template*/
+*{
+	margin:0;
+	padding:0;
+	cursor:default;
+}
+a {
+	text-decoration:none;
+}
+.link, a {
+	cursor:pointer;
+}
+body {
+    font: 12px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	margin:0;
+	padding:0;
+	background-color:#EEEEEE;
+	text-align:center;
+	overflow-y:scroll;
+}
+#container {
+	text-align:center; 
+	margin: 0 auto;
+	padding-top:50px;
+	width: 1080px;	
+	padding-bottom:80px;
+	}
+
+#content{
+
+	}
+
+#logo_med
+{
+    background: url("/img/logo.png") no-repeat left;
+	display: block;
+    height: 70px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    text-indent: -9999px;
+    width: 380px;
+	margin-left:20px;
+}
+
+/* title */
+
+.title{
+	float:left;
+}
+
+#title{
+	font: 30px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	color:#333333;
+	text-shadow:2px 2px 5px #4d4d4d;
+	margin-left:80%;
+	margin-top:0px;
+	margin-bottom:18px;
+	}
+.accounts {
+	margin:0 auto;
+	width:960px;
+}
+ 
+.two_column{
+	float:left;
+	position:relative;
+	text-align:left;
+	margin:0 auto;
+	background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #E5E5E5;
+    border-radius: 11px 11px 11px 11px;
+	-moz-box-shadow: 0px 0px 20px #BBBBBB;
+	-webkit-box-shadow: 0x 0px 20px #BBBBBB;
+	box-shadow: 0px 0px 20px #BBBBBB;
+    font-weight: normal;
+    padding: 10px 20px 10px 20px;
+	color:#222222;
+}
+/*left column*/
+#left_column {
+	width:20%;
+	margin-right:5%;
+}
+#right_column {
+	width:65%;
+	margin-bottom:30px;
+}
+h3 {
+	font: 20px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	color:#777777;
+	text-align:left;
+}
+#actions_title {
+	margin-bottom:10px;
+	margin-left:10px;
+}
+/*action buttons*/
+
+.button {
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	vertical-align:middle;
+	background-color:#4D4D4D;
+	padding:5px 0 5px 0;
+	width:150px;
+}
+.link {
+	font:20px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	color:#E8E8E8;
+	}
+
+.button:hover {
+	color:#E8E8E8;
+	background-color:#707070;
+	}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+.actions { 
+	color:#222222;
+    text-decoration:none;
+	margin:0 0 7px 0;
+	text-align:center;
+ }
+.actions :hover { 
+	color:#888888;
+    text-decoration:none;
+ }
+
+#action_button {
+	width:80%;
+}
+
+.black_block	{
+	padding:10px 10px 10px 10px;
+	margin:0 auto;
+	background: none repeat scroll 0 0 #6E6E6E;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 6px 6px 6px 6px;
+	z-index:1;
+	}
+#block_1 {
+	float:left;
+	margin-top:10px;
+	margin-left:5.57%;
+	width:50%;
+}
+#block_2 , #block_3{
+	float:left;
+	margin-top:10px;
+	margin-left:5.57%;
+	width:85%;
+}
+
+.black_block ul {
+	list-style-type:none;
+	font-size:15px;
+	color:E8E8E8;
+	text-align:left;
+}
+.black_block li {
+	height:15px;
+	width:100%;
+	padding:10px 5px 10px 5px;
+	border-bottom:1px dotted #C2C2C2;
+}
+#title_1 {
+	width:50%;
+}
+#title_2 {
+	width:30%;
+}
+p {
+	float:left;
+}
+.amount{ 
+	text-shadow:0px 0px 10px #ffffff;
+	color:#EBEBEB;
+	text-decoration:none;
+	width:20px;
+	margin-left:15%;
+}
+.alipay_address {
+	color:#EBEBEB;
+	text-decoration:none;
+	margin-left:15%;
+}
+
+/* order record */
+.orders {
+	table-layout:fixed;
+	font: 15px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	color: #E8E8E8;
+	border-collapse:collapse;
+	padding:2px;
+}
+th {
+    font-weight:normal;
+	padding:1px 5px 5px 5px;
+}
+.orders td {
+	padding:2px;
+	text-align:center;
+	border:dotted #C2C2C2;
+	border-width:1 0 1 0;
+}
+/* Set flash */
+.message {
+	text-align:center;
+	font-size:15px;
+	color:#FF3B1C;
+	text-shadow:0px 0px 15px #a34444;
+}
+
+.action_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#d4d4d4;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #d6d6d6;
+	display:inline-block;
+	color:#4a4a4a;
+	font-family:"Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1px 5px;
+	text-decoration:none;
+	width:80px;
+	margin:2px 0px 2px 0px;
+}
+.action_button:hover {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bdbdbd;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bdbdbd;
+	box-shadow:inset 0px 1px 0px 0px #bdbdbd;
+	background-color:#a6a6a6;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #808080;
+	display:inline-block;
+	color:#292929;
+}
+.action_button:active {
+	position:relative;
+	top:1px;
+}
+/* IE sucks*/
+
+.black_block li {
+	height:15px;
+	width:100%;
+	padding:10px 5px 10px 5px;
+	border-bottom:1px dotted #C2C2C2;
+}
+
+* html .IE_sucks {
+	
+	height:50px;
+
+}
+.error-message {
+	font-size:13px;
+	color:#4C4B41;
+	text-align:center;
+	}

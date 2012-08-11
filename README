@@ -1,0 +1,16 @@
+Project doten.co
+Cecil Li and Gilbert Liu
+
+INTRODUCTION
+As one of first two bitcoin trading platforms in China, doten.co is created in May 2011. Unfortunately, the website was closed after Aug 2011, since both of the developers were occupied by other stuff.
+
+TECHNOLOGY
+This project is based on CakePHP 1.3 with MySQL and official bitcoin client backed. It really took a while when we try to build an excutable from the source code of bitcoin client on CentOS linux, and we believe things must be much easier now, so there is no instructions on this here.
+This project makes full use of the account system of the official bitcoin client, which was not very reliable. Although it is not the best practice, we prefer not to change. Edit /app/controllers/components/bitcoin.php to change the settings or anything you want.
+
+DEPLOYMENT
+Please follow the instruction at CakePHP official site http://cakephp.org
+Notice that the entire /app/config directory is ripped off by the default .gitignore
+And don't forget the jsonRPC settings in /app/controllers/components/bitcoin.php to connect to the bitcoin server
+Finally, Start the bitcoin client with jsonRPC enabled in the setting file.
+Backup your wallet.

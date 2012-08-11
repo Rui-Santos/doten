@@ -1,0 +1,241 @@
+/*login css for log in and registration pages.*/
+
+*{
+	margin:0;
+	padding:0;
+	cursor:default;	
+}
+.link, a {
+	cursor:pointer;
+}
+
+body {
+    font: 11px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	margin:0;
+	padding:0;
+	background-color:#EEEEEE;
+	text-align:center;
+	overflow-y:scroll;
+}
+
+#container {
+	text-align:center;
+	padding-top:50px;  
+	margin: 0 auto;
+	width: 400px;
+	}
+#content {
+	margin:0 auto;
+	width: 360px;
+	text-align:left;
+	}
+/*logo	*/
+#logo_med
+	{
+    background: url("/img/logo_med.png") no-repeat center;
+	margin:0 auto;
+    display: block;
+    height: 70px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    text-indent: -9999px;
+}
+/*textinput form*/
+form {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #E5E5E5;
+    border-radius: 11px 11px 11px 11px;
+	-moz-box-shadow: 0px 0px 20px #BBBBBB;
+	-webkit-box-shadow: 0x 0px 20px #BBBBBB;
+	box-shadow: 0px 0px 20px #BBBBBB;
+    font-weight: normal;
+	margin-top:10px;
+    padding: 5px 16px 5px;
+}
+
+.input_form { 
+	font: 24px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color:#3C3C3C;
+	background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 3px;
+    margin-right: 6px;
+    margin-top: 2px;
+    padding: 3px;
+    width: 97%;
+	cursor:text;
+}
+#disabled_email.input_form {
+	background: none repeat scroll 0 0 #F2F2F2;
+}
+
+#alipay.input_form{
+	margin-bottom:10px;
+}
+h4{
+	font:18px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	margin:5px 50px 0px 10px;
+	color:#858171;
+}
+h5{
+	font:15px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	margin:5px 50px 0px 10px;
+	color:#858171;
+}
+
+h5.register_link {
+padding-left:10px;
+}
+
+h6{
+	font:12px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	margin:5px 50px 0px 10px;
+	color:#858171;
+}
+
+
+.button {
+	-moz-box-shadow:inset 0px 0px 5px -3px #ccc6c8;
+	-webkit-box-shadow:inset 0px 0px 5px -3px #ccc6c8;
+	box-shadow:inset 0px 0px 5px -3px #ccc6c8;
+	background-color:#C4BFBF;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+}
+
+#login_button {
+	font-family:"Lucida Grande",Verdana,Arial;
+	font-size:19px;
+	font-weight:bold;
+	margin-top:15px;
+	padding:9px 30px;
+	text-decoration:none;
+	text-shadow:1px 0px 8px #ffffff;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #D9D3D3), color-stop(1, #D9D3D3) );
+	background:-moz-linear-gradient( center top, #D9D3D3 5%, #D9D3D3 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#D9D3D3', endColorstr='#D9D3D3');
+	background-color:#f5eef0;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+#submit_login{
+margin-left: auto; margin-right: auto;
+}
+#submit_register{
+margin-left: auto; margin-right: auto;
+}
+#rememberme {	
+}
+#submit_button{
+	font:19px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+}
+.clear {
+    clear: both;
+}
+/*register page*/
+#dark_font{
+	color:#4C4B41;
+	 padding-left:10ox;
+	}
+.disabled_email {
+	font: 24px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color:#3C3C3C;
+	background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 3px;
+    margin-right: 6px;
+    margin-top: 2px;
+    padding: 3px;
+    width: 97%;
+}
+
+/*password strength meter*/
+.password_input {	
+	font: 24px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color:#3C3C3C;
+	background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 3px;
+    margin-right: 6px;
+    margin-top: 2px;
+    padding: 3px;
+    width: 97%;
+	cursor:text;
+}
+.pstrength-minchar {
+font-size : 10px;
+}
+
+/*add order*/
+
+.order_form { 
+	font: 20px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color:#3C3C3C;
+	background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 3px;
+    margin-right: 6px;
+    margin-top: 2px;
+    padding: 3px;
+    width: 67%;
+}
+#price {
+	width: 50%;
+}
+#order {
+	font-size: 15px;
+}
+#two_column{
+	padding-top:20px;
+	width:100%;
+	border-collapse:collapse;
+}
+#two_column td{
+	color:#4D4D4D;
+	height:40px;
+	font-size:15px;
+	border:1px solid #BDBDBD1;
+	padding:5px 7px 2px 7px;
+  }
+select {
+	font-size:15px;
+	font-family:"Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	color:#4D4D4D;
+	}
+.total_amount {
+	font: 20px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	color:#3C3C3C;
+	background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 3px;
+    margin-right: 6px;
+    margin-top: 2px;
+    padding: 3px;
+    width: 50%;
+}
+	
+div.add_order
+{
+text-align:center;
+}
+
+/* Set flash */
+.message {
+	text-align:center;
+	font-size:15px;
+	color:#FF3B1C;
+	text-shadow:0px 0px 15px #a34444;
+}
+.error-message {
+	font-size:13px;
+	color:#4C4B41;
+	text-align:center;
+	}

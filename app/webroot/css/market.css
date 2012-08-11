@@ -1,0 +1,136 @@
+/*default css template*/
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+    font: 12px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	margin:0;
+	padding:0;
+	background-color:#EEEEEE;
+	text-align:center;
+	overflow-y:scroll;
+}
+#container {
+	text-align:center; 
+	margin: 0 auto;
+	padding-top:50px;
+	width: 1080px;
+	position:relative;
+	height: 100%;
+	padding-bottom:80px;
+	}
+
+#content{
+	}
+
+#logo_med
+{
+    background: url("/img/logo.png") no-repeat left;
+	display: block;
+    height: 70px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    text-indent: -9999px;
+    width: 380px;
+	margin-left:20px;
+}
+
+/* title */
+
+.title{
+	float:left;
+}
+#title{
+	font: 30px "Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	color:#333333;
+	text-shadow:2px 2px 5px #4d4d4d;
+	margin-left:80%;
+	margin-top:0px;
+	margin-bottom:-35px;
+	}
+.buy_sell{
+    padding: 10px 20px 10px 20px;
+	color:#222222;
+	width:100%;
+	text-align:center;
+}
+.buy_sell td{
+	padding: 2px;
+	border-top-style:solid;
+	border-color:#D1D1D1;
+	border-width:1px 0 0 0;
+}
+
+.two_column a{ 
+	color:#222222;
+    text-decoration:none;
+ }
+.two_column a:hover { 
+	color:#888888;
+    text-decoration:none;
+ }
+ 
+.two_column{
+	float:left;
+	width:48%;
+	text-align:center;
+	margin: 0 auto;
+	background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #E5E5E5;
+    border-radius: 11px 11px 11px 11px;
+	-moz-box-shadow: 0px 0px 20px #BBBBBB;
+	-webkit-box-shadow: 0x 0px 20px #BBBBBB;
+	box-shadow: 0px 0px 20px #BBBBBB;
+    font-weight: normal;
+	margin-top:5%;
+}
+.orders_index{
+	color:#777777;
+	 font-size: 20px;
+	padding-left:12px;
+	padding-top:8px;
+	text-align:left;
+	font-family:"Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	font-weight: bold;
+}
+
+
+
+.match_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#d4d4d4;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #d6d6d6;
+	display:inline-block;
+	color:#6b6b6b;
+	font-family:"Microsoft YaHei","STHeiti","Simhei","Hiragino Sans GB","Lucida Grande",Verdana,Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:3px 10px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #f2f2f2;
+}.match_button:hover {
+	background-color:#c7c7c7;
+}.match_button:active {
+	position:relative;
+	top:1px;
+}
+
+/* Set flash */
+.message {
+	text-align:center;
+	font-size:15px;
+	color:#FF3B1C;
+	text-shadow:0px 0px 15px #a34444;
+}
+.error-message {
+	font-size:13px;
+	color:#4C4B41;
+	text-align:center;
+	}

@@ -1,0 +1,66 @@
+msgid	"USERS_LOGIN_FAILED"
+msgstr	"你一定是把什么搞错了. 或者你的帐户已经被锁定.<br>你可以点下面的"忘记密码"试一试."
+
+msgid	"ORDERS_ADD_FAILED"
+msgstr	"呃..下单失败了."
+
+msgid	"ORDERS_MATCH_FAILED"
+msgstr	"交易失败."
+
+msgid	"ORDERS_MATCH_FUND"
+msgstr	"呃..你确定你有足够的余额吗."
+
+msgid	"ORDERS_PAYERCONF_FAILED"
+msgstr	"呃..休斯顿, 我想我们有麻烦了."
+
+msgid	"ORDERS_PAYEECONF_FAILED"
+msgstr	"呃..休斯顿, 我想我们有麻烦了."
+
+msgid	"ORDERS_CANCEL_FAILED"
+msgstr	"呃..休斯顿, 我想我们有麻烦了."
+
+msgid	"USERS_REGISTER_FAILED"
+msgstr	"注册失败, 换一个用户名/支付宝试试吧."
+
+msgid	"USERS_SETPASSWORD_DIFF"
+msgstr	"两次密码输入的不一样哦."
+
+msgid	"USERS_SETPASSWORD_NOTFOUND"
+msgstr	"用户信息未找到, 请联系我们解决这个问题."
+
+msgid	"USERS_SETPASSWORD_NOTREG"
+msgstr	"您的帐号还没有完成注册, 请联系我们解决这个问题."
+
+msgid	"USERS_SETPASSWORD_LOCKED"
+msgstr	"您的帐号已被锁定, 请联系我们解决这个问题."
+
+msgid	"USERS_FORGOT_LOCKED"
+msgstr	"您的帐号已被锁定, 请联系我们解决这个问题."
+
+msgid	"USERS_CHANGE_INCORRECT"
+msgstr	"旧密码输入的不太对哦"
+
+msgid	"ACCOUNTS_TRANSFER_ARGU"
+msgstr	"转账失败, 再试一次, 如果仍然存在问题, 请和我们联系"
+
+msgid	"ACCOUNTS_TRANSFER_DEST"
+msgstr	"你要不要再检查一下收款帐号呢?"
+
+msgid	"ACCOUNTS_TRANSFER_FAILED"
+msgstr	"转账失败, 再试一次, 如果仍然存在问题, 请和我们联系"
+
+msgid	"ACCOUNTS_WITHDRAW_ARGU"
+msgstr	"提现失败, 再试一次, 如果仍然存在问题, 请和我们联系"
+
+msgid	"ACCOUNTS_WITHDRAW_DEST"
+msgstr	"这个地址不大对, 是不是漏了个字符呢."
+
+msgid	"ACCOUNTS_WITHDRAW_FUND"
+msgstr	"呃..你确定你有足够的余额吗."
+
+msgid	"ACCOUNTS_WITHDRAW_FAILED"
+msgstr	"提现失败, 再试一次, 如果仍然存在问题, 请和我们联系"
+
+msgid	"USERS_CHANGE_DIFF"
+msgstr	"两次密码输入的不一样哦."
+
